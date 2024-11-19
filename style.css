@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #eee;
+   
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem 9%;
+    box-shadow: 2px 2px 8px 8px rgb(221, 216, 216);
+
+}
+
+.header h1 {
+    color: rgb(59, 57, 57);
+}
+
+.navbar {
+    margin-right: 2rem;
+}
+
+.header .navbar a {
+    font-size: 1.1rem;
+    padding: 0 .8rem;
+    text-decoration: none;
+    color: black;
+
+}
+.header .navbar a:hover{
+    font-weight: bold;
+    color: rgb(59, 57, 57);
+}
+
+.icons {
+    display: none;
+    font-size: 1.8rem;
+    background-color: #eee;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0px 8px;
+}
+
+.main {
+    /* background-color: red;*/
+    margin-top: 84px;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 50PX;
+    /*border: 2px solid black;*/
+    box-shadow: 2px 2px 8px 8px rgb(206, 199, 199);
+
+}
+
+.right {
+    margin-left: 50PX;
+    text-align: center;
+    font-size: 22px;
+}
+
+.right button {
+    width: 180px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    font-size: 22px;
+    margin-top: 20px;
+    border: 2px solid rgb(59, 57, 57);
+    background-color: #fff;
+    color: rgb(59, 57, 57);
+    font-weight: bold;
+}
+
+.right h1 {
+    color: rgb(59, 57, 57);
+}
+
+#element {
+    color: rgb(75, 72, 72);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.right button:hover {
+    background-color: rgb(59, 57, 57);
+    color: white;
+}
+
+.about {
+    /* background-color: blue;*/
+    height: 530px;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.about p {
+    margin-bottom: 12px;
+}
+
+.heading {
+    background-color: rgb(59, 57, 57);
+    color: #fff;
+    display: inline-block;
+    padding: 0px 20px;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+.aboutcontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.aboutleft img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 40px;
+    box-shadow: 2px 2px 8px 8px rgb(206, 199, 199);
+
+}
+
+.aboutText {
+    display: flex;
+    margin-top: 70px;
+}
+
+.experiences {
+    width: 300px;
+    height: 130px;
+    border: 1px solid rgb(59, 57, 57);
+    border-radius: 20px;
+    margin: 0px 12px;
+    background-color: white;
+    color: black;
+    padding: 0px 10px;
+}
+
+.experiences i {
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.experiences p {
+    font-size: 14px;
+}
+
+.education {
+    width: 300px;
+    height: 130px;
+    border: 1px solid rgb(59, 57, 57);
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 0px 10px;
+}
+
+.education i {
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.education p {
+    font-size: 14px;
+
+}
+
+#hov:hover {
+    background-color: rgb(59, 57, 57);
+    color: white;
+}
+
+.paraAbout {
+    width: 600px;
+    margin-top: 30px;
+}
+
+.myexperience{
+    height: 520px;
+    /*background-color: aqua;*/
+    text-align: center;
+    padding-top: 80px;
+}
+.experience {
+    padding: 30px 0px;
+}
+.experience p {
+    margin-bottom: 8px;
+}
+.experiencedetails {
+    display: flex;
+    justify-content: center;
+
+}
+.basic {
+    border: 1px solid rgb(59, 57, 57);
+    width: 500px;
+    height: 300px;
+    margin: 0px 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(59, 57, 57);
+    font-size: 13px;
+    box-shadow: 2px 2px 8px 8px rgb(206, 199, 199);
+   
+}
+.article {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    padding: 2px;
+    flex-direction: row;
+    gap: 1.8rem;
+    justify-content: space-around;
+    margin: 0px 10px;
+    color: rgb(59, 57, 57);
+
+}
+.icon {
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+    gap: 0.2rem;
+    align-items: center;
+}
+.basic h1 {
+    padding: 22px;
+}
+.projects{
+   /* background-color: aquamarine;*/
+    height: 530px;
+    text-align: center;
+    padding-top: 110px;
+}
+.projectpara p {
+    margin-bottom: 9px;
+}
+.projectone{
+    border: 1px solid black;
+    margin: 10px;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.projectone img {
+    width: 250px;
+    margin: 20px;
+    height: 200px;
+    border-radius: 10px;
+}
+.projectone .img2{
+    height: 200px;
+}
+.projectone h2{
+    color: rgb(48, 46, 46);
+    margin-bottom: 0px;
+}
+.projectdetails{
+    display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.projectone button {
+    width: 180px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    font-size: 22px;
+    margin-top: 10px;
+    border: 2px solid rgb(59, 57, 57);
+    background-color: #fff;
+    color: rgb(59, 57, 57);
+    font-weight: bold;
+   
+}
+.projectone button:hover {
+    background-color: rgb(59, 57, 57);
+    color: white;
+}
+
+.contact {
+  /* background-color: brown;*/
+    height: 500px;
+}
+.contactLeft {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+    
+}
+.contactLeft .para2 {
+    padding: 10px;
+}
+.contactDetails {
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 40px;
+    width: 350px;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    box-shadow: 2px 2px 8px 8px rgb(206, 199, 199);
+}
+.mail {
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+    gap: .5rem; 
+}
+.mail i{
+    padding-top: 5px;
+}
+.contactRight {
+    background-color: #fff;
+    box-shadow: 2px 2px 8px 8px rgb(221, 216, 216);
+    margin-top: 220px;
+    text-align: center;
+    padding: 22px;
+    width: 96.7%;
+    /*position: sticky;
+    bottom: 0;*/
+   
+}
+.footer span {
+    font-weight: bolder;
+    color: rgb(48, 46, 46);
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:900px) {
+    .header {
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header .navbar a {
+        font-size: 1rem;
+    }
+
+    .aboutcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .myexperience{
+        margin-top: 190px;
+    }
+    .projectdetails{
+        flex-direction: column;
+    }
+    .projects{
+        height: 1400px;
+      
+    }
+    .contactRight{
+        margin-top: 350px;
+    }
+   
+   
+}
+
+
+@media (max-width:650px) {
+
+    .icons {
+        display: inline-block;
+        font-size: 22px;
+        margin-right: 3rem;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 110%;
+        right: 1rem;
+        width: 17rem;
+        box-shadow: 2px 1px 8px 4px rgb(185, 181, 181);
+        border-radius: .2rem;
+        background: #fff;
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .header {
+        font-size: 19px;
+        padding: 1rem 9%;
+    }
+
+    .header .navbar a {
+        font-size: 1.3rem;
+        margin: 2rem 2.5rem;
+        display: block;
+
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .main {
+        flex-direction: column;
+        height: 720px;
+    }
+
+    .left {
+        height: 250px;
+        width: 250px;
+        margin-bottom: 40px;
+        margin-right: 19px;
+    }
+
+    .right {
+        font-size: medium;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .about{
+        padding-top: 110px;
+    }
+
+    .aboutText {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 18px;
+    }
+    .aboutleft{
+        margin-left: 50px;
+    }
+
+    #hov {
+        width: 350px;
+        margin-left: 35px;
+        
+    }
+    .education{
+        width: 200px;
+        padding: 0px 10px;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .paraAbout{
+        width: 380px;
+        margin-left: 35px ;
+    }
+    .myexperience{
+       margin-top: 250px;
+     
+    }
+    .basic{
+        height: 500px;
+        margin-right: 10px;
+        margin-left: 18px;
+    }
+    .projects{
+        margin-top: 100px;
+    }
+    .projectone{
+        width: 340px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .projectone img {
+        width: 300px;
+    }
+    
+    .contactDetails{
+        margin-left: 40px;
+        width: 310px;
+    }
+    .contactLeft{
+      /* height: 200px;*/
+        align-items: center;
+    }
+.contactRight{
+    font-size: 15px;
+    margin-top: 400px;
+   
+}
+.copyright{
+    margin-left: 0px;
+    margin-right: 25px;
+   
+}
+.footer span {
+    font-weight: bold;
+    font-size: 20px;
+}
+}
